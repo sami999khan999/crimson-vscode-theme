@@ -1,0 +1,39 @@
+{
+  "name": "crimson-theme",
+  "displayName": "Crimson",
+  "description": "Oxblood almost black, a quiet silver accent; red only where something needs you.",
+  "version": "0.1.0",
+  "publisher": "sami999khan999",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sami999khan999/crimson-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "crimson",
+    "red",
+    "oxblood",
+    "minimal"
+  ],
+  "galleryBanner": {
+    "color": "#140b0d",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crimson",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crimson-color-theme.json"
+      }
+    ]
+  }
+}
