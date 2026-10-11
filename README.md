@@ -16,10 +16,10 @@ VS Code in the same colours as the bar, the panels and the terminal around it.
 
 ## Install
 
-From a release `.vsix`:
+From the committed `.vsix` (no build needed):
 
 ```sh
-code --install-extension crimson-theme-0.1.0.vsix
+code --install-extension release/crimson-theme-0.1.0.vsix
 ```
 
 From source:
@@ -27,8 +27,8 @@ From source:
 ```sh
 git clone https://github.com/sami999khan999/crimson-vscode-theme
 cd crimson-vscode-theme
-npx @vscode/vsce package
-code --install-extension crimson-theme-*.vsix
+npm run package   # builds release/crimson-theme-<version>.vsix (commit it)
+code --install-extension release/crimson-theme-*.vsix
 ```
 
 Then pick it: `Ctrl+K Ctrl+T` → **Crimson**.

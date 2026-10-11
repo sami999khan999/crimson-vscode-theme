@@ -3,6 +3,9 @@
   "displayName": "Crimson",
   "description": "Oxblood almost black, a quiet silver accent; red only where something needs you.",
   "version": "0.1.0",
+  "scripts": {
+    "package": "npx --yes @vscode/vsce package --out release/"
+  },
   "publisher": "sami999khan999",
   "license": "MIT",
   "repository": {
